@@ -2,12 +2,17 @@
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".views.MainClass">
 
     <fragment
-            android:name="com.androidjetpack1.views.views_list.ListPeopleFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/poepleListFragment"/>
+            android:id="@+id/navigationHost"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/navigation_graph"/>
 
 </android.support.constraint.ConstraintLayout>

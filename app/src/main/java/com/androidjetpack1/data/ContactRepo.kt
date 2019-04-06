@@ -28,7 +28,7 @@ class ContactRepo(application:Application) {
         peopleDAO.insert(people)
 
     }
-    fun findPeople(id:Int):People?{
+    fun findPeople(id:Int): LiveData<People> {
 //        for (people in PeopleListInfo.peopleList){
 //            if (people.id == id){
 //                return people

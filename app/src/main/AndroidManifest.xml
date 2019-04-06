@@ -15,8 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".views.views_add.AddPeopleData"/>
-        <activity android:name=".views.views_details.DetailAct"/>
+        <!--<activity android:name=".views.views_add.AddPeopleData"/>-->
+        <!--<activity android:name=".views.views_details.DetailAct"/>-->
     </application>
 
 </manifest>
